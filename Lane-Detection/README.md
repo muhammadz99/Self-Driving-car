@@ -44,12 +44,3 @@ The lane is filled in and the result is written to the output video
 
 ## Running
 Running LaneDetect_OneFrame only uses one frame and displays images at each step of the process. Running LaneDetect will go through the frames in test_video and write an output.avi. The test video used is currently specified on lines 19 and 20.
-
-## TODO
-Use Homography to get birds eye view of image, fit a curve to the lane in this view and transform back to draw lane lines more accurately.
-
-## References
-- https://drive.google.com/open?id=0B8DbLKogb5ktZEpQeGJiNV9pWDA
-- https://drive.google.com/open?id=0B8DbLKogb5ktcGEzVDBhWlp5SG8
-- https://github.com/jessicayung/self-driving-car-nd
-
